@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>动画效果</title>
+		<style>
+			p{
+				font-size: 50px;
+				float: left;
+			}
+			#c{
+				background-color: chartreuse;
+				animation: chun 1s infinite;
+			}
+			#x{
+				background-color: coral;animation: xia 1s infinite;
+			}
+			#q{
+				background-color: cyan;animation: chun 1s  infinite;
+			}
+			#d{
+				background-color: aliceblue;animation: chun 1s infinite;
+				color: black;
+			}
+			@keyframes chun{
+				0%{opacity:0}
+				25%{opacity:50}
+				50%{opacity:100}
+				100%{opacity:0}
+			}
+			@keyframes xia{
+				0%{opacity:0}
+				25%{opacity:0}
+				50%{opacity:100;}
+				100%{opacity:0}
+			}
+			@keyframes qiu{
+				0%{opacity:0}
+				25%{opacity:100}
+				50%{opacity:100;}
+				100%{opacity:0}
+			}
+			@keyframes dong{
+				0%{opacity:100}
+				25%{opacity:100}
+				50%{opacity:100;}
+				100%{opacity:100}
+			}
+		</style>
+	</head>
+	<body>
+		<p id="c">春</p>
+		<p id="x">夏</p>
+		<p id="q">秋</p>
+		<p id="d">冬</p>
+	</body>
+</html>
